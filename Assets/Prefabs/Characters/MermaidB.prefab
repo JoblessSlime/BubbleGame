@@ -100,6 +100,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 865e7ef69322394449dcdd58043e33a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubblePrefab: {fileID: 8044754668895325258, guid: 9fde0df07fc8cb544a36ce38e6ea2538, type: 3}
-  spawnInterval: 1
+  characterScriptable: {fileID: 11400000, guid: 1bfa132490f48234496fdd7353464ce7, type: 2}
   spawnPositionOffset: {x: 0, y: 1, z: 1}

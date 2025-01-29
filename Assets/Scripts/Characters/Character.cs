@@ -14,9 +14,13 @@ public class Character : ScriptableObject
 
     public string CharacterCostType;
 
-    public Image characterImage;
+    public Sprite characterImage;
 
     public int maxCharacterNumber;
 
     public string characterName;
+
+    public bool alreadyPop;
+
+    public GameObject Prefab;
 }

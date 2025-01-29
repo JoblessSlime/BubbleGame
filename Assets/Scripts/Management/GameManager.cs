@@ -8,12 +8,21 @@ public class GameManager : MonoBehaviour
     public TMPro.TextMeshProUGUI bubbleCountText;
 
     private float bubbleCount = 0;
-    private Dictionary<string, float> bubbleCounts = new Dictionary<string, float>();
+    public Dictionary<string, float> bubbleCounts = new Dictionary<string, float>();
 
 
     private void Awake()
     {
         Instance = this;
+        bubbleCounts["A"] = 0;
+        bubbleCounts["B"] = 0;
+        bubbleCounts["C"] = 0;
+        bubbleCounts["D"] = 0;
+        bubbleCounts["E"] = 0;
+        bubbleCounts["F"] = 0;
+        bubbleCounts["G"] = 0;
+        bubbleCounts["H"] = 0;
+        bubbleCounts["I"] = 0;
     }
 
     public void AddBubble(string type, float amount)
@@ -22,27 +31,11 @@ public class GameManager : MonoBehaviour
             bubbleCounts[type] = 0;
 
         bubbleCounts[type] += amount;
+        Debug.Log(bubbleCounts[type]);
     }
 
     void Update()
     {
-        string displayText = "Bulles collectées :\n";
 
-        float total = 0;
-
-        foreach (var kvp in bubbleCounts)
-        {
-            total += kvp.Value;
-            displayText += $"{kvp.Key} : {kvp.Value}\n";
-        }
-
-        displayText += $"\nTotal : {total}";
-
-        bubbleCountText.text = displayText;
-    }
-
-    public float GetBubbleCount()
-    {
-        return bubbleCount;
     }
 }

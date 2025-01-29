@@ -3,22 +3,15 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Character", menuName = "Scriptable Objects/Character")]
 public class BubbleGenerator : MonoBehaviour
 {
-    public GameObject bubblePrefab;
-    public float spawnInterval = 0.5f;
+    [SerializeField] Character characterScriptable;
     public Vector3 spawnPositionOffset = new Vector3(0, 1, 1);
 
     private float timeSinceLastSpawn = 0f;
 
-    // public int characterCost;
-    // public string characterName;
-    // public Sprite characterArt;
-    // public int characterMaxNumber;
-
-
     private void SpawnBubble()
     {
         Vector3 spawnPosition = transform.position + spawnPositionOffset;
-        Instantiate(bubblePrefab, spawnPosition, Quaternion.identity);
+        Instantiate(characterScriptable.bubbleType, spawnPosition, Quaternion.identity);
     }
 
 
@@ -26,10 +19,13 @@ public class BubbleGenerator : MonoBehaviour
     {
         timeSinceLastSpawn += Time.deltaTime;
 
-        while (timeSinceLastSpawn >= spawnInterval)
+        if (timeSinceLastSpawn >= characterScriptable.timeToSpawn)
         {
-            SpawnBubble();
-            timeSinceLastSpawn -= spawnInterval;
+            for (int i = 0; i < characterScriptable.bubbleNumber; i++)
+            {
+                SpawnBubble();
+                timeSinceLastSpawn = 0;
+            }
         }
     }
 }

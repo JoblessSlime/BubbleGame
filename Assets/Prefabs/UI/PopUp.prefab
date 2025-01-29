@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7305793622628926114}
   - component: {fileID: 6740496682136364521}
   - component: {fileID: 8238912408583989845}
+  - component: {fileID: -3176694496896780539}
   m_Layer: 5
   m_Name: PopUp
   m_TagString: Untagged
@@ -85,13 +86,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 80d70ab2a573a2a40b52890aff2b7b93, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: -3176694496896780539}
+        m_TargetAssemblyTypeName: ButtonClicked, Assembly-CSharp
+        m_MethodName: PopUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -161,6 +162,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-3176694496896780539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768338929957972140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13d69e8b62a2ae4a96ddaa42130eee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  gameDatas: {fileID: 11400000, guid: 0bb8aadfac15ef2449efc358f6d80c16, type: 2}
 --- !u!1 &1021103358764802105
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ public class Character : ScriptableObject
 {
     public float timeToSpawn;
 
+    public float bubblesPerMinute;
+
     public int bubbleNumber;
 
     public GameObject bubbleType;
@@ -16,7 +18,13 @@ public class Character : ScriptableObject
 
     public Sprite characterImage;
 
+    public Sprite CharacterCostTypeImage;
+
+    public Sprite bubbleTypeImage;
+
     public int maxCharacterNumber;
+
+    public int characterNumberAlreadyOwned;
 
     public string characterName;
 

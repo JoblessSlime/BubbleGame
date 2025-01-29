@@ -18,7 +18,8 @@ MonoBehaviour:
   characterCost: 10
   CharacterCostType: B
   characterImage: {fileID: 0}
-  maxCharacterNumber: 0
+  maxCharacterNumber: 2
+  characterNumberAlreadyOwned: 0
   characterName: 
   alreadyPop: 1
   Prefab: {fileID: 555688245926419410, guid: 11ddbf11b4dc2e24b9c17344877b9c2e, type: 3}

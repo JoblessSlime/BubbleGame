@@ -10,15 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54505fa0aab04c488f90d4e260c2fe8, type: 3}
-  m_Name: Character 2
+  m_Name: Pirate
   m_EditorClassIdentifier: 
-  timeToSpawn: 0
-  bubbleNumber: 0
-  bubbleType: {fileID: 0}
+  timeToSpawn: 3
+  bubblesPerMinute: 20
+  bubbleNumber: 1
+  bubbleType: {fileID: 8044754668895325258, guid: 1e9f39ea332fa9a4096d0df1d81cdf98, type: 3}
+  characterPlacement:
+  - {x: 0, y: 0, z: 0}
   characterCost: 1
   CharacterCostType: C
   characterImage: {fileID: 0}
-  maxCharacterNumber: 0
-  characterName: 
+  CharacterCostTypeImage: {fileID: 0}
+  bubbleTypeImage: {fileID: 0}
+  maxCharacterNumber: 1
+  characterNumberAlreadyOwned: 0
+  characterName: Pirate
   alreadyPop: 0
-  Prefab: {fileID: 0}
+  Prefab: {fileID: 555688245926419410, guid: 9a1b8319108d4b741a06b3e4eab87731, type: 3}

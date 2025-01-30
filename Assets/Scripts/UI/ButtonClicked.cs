@@ -16,5 +16,14 @@ public class ButtonClicked : MonoBehaviour
         gameDatas.bubbleCounts[character.CharacterCostType] -= character.characterCost;
     }
 
+    private void Update()
+    {
+        if (gameDatas.bubbleCounts[character.CharacterCostType] < character.characterCost)
+        {
+            Destroy(this.gameObject);
+            character.alreadyPop = false;
+        }
+    }
+
 
 }

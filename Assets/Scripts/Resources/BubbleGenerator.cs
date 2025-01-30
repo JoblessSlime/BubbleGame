@@ -4,14 +4,14 @@ using UnityEngine;
 public class BubbleGenerator : MonoBehaviour
 {
     [SerializeField] Character characterScriptable;
-    public Vector3 spawnPositionOffset = new Vector3(0, 1, 1);
+    public Transform spawnPosition;
 
     private float timeSinceLastSpawn = 0f;
 
     private void SpawnBubble()
     {
-        Vector3 spawnPosition = transform.position + spawnPositionOffset;
-        Instantiate(characterScriptable.bubbleType, spawnPosition, Quaternion.identity);
+        Vector3 spawnPositionVector = spawnPosition.position;
+        Instantiate(characterScriptable.bubbleType, spawnPositionVector, Quaternion.identity);
     }
 
 
@@ -27,5 +27,10 @@ public class BubbleGenerator : MonoBehaviour
                 timeSinceLastSpawn = 0;
             }
         }
+    }
+
+    private void OnMouseDown()
+    {
+        SpawnBubble();
     }
 }

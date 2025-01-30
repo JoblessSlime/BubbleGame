@@ -10,19 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54505fa0aab04c488f90d4e260c2fe8, type: 3}
-  m_Name: Character 1
+  m_Name: Penguin
   m_EditorClassIdentifier: 
-  timeToSpawn: 2
-  bubblesPerMinute: 0
-  bubbleNumber: 2
-  bubbleType: {fileID: 8044754668895325258, guid: 9fde0df07fc8cb544a36ce38e6ea2538, type: 3}
-  characterCost: 10
+  timeToSpawn: 4
+  bubblesPerMinute: 15
+  bubbleNumber: 1
+  bubbleType: {fileID: 8044754668895325258, guid: 6d1d40dcc3aca6d4dad0852a4d88715b, type: 3}
+  characterPlacement:
+  - {x: 0, y: 0, z: 0}
+  characterCost: 1
   CharacterCostType: B
   characterImage: {fileID: 0}
   CharacterCostTypeImage: {fileID: 0}
   bubbleTypeImage: {fileID: 0}
-  maxCharacterNumber: 2
-  characterNumberAlreadyOwned: 1
-  characterName: 
+  maxCharacterNumber: 1
+  characterNumberAlreadyOwned: 0
+  characterName: Pingu
   alreadyPop: 1
-  Prefab: {fileID: 555688245926419410, guid: 11ddbf11b4dc2e24b9c17344877b9c2e, type: 3}
+  Prefab: {fileID: 555688245926419410, guid: 322f4ac65076a664aa39b8b90acc580e, type: 3}

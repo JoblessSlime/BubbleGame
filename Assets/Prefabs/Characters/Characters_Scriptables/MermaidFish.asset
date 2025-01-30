@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54505fa0aab04c488f90d4e260c2fe8, type: 3}
-  m_Name: Character
+  m_Name: MermaidFish
   m_EditorClassIdentifier: 
-  timeToSpawn: 1
-  bubblesPerMinute: 60
+  timeToSpawn: 2
+  bubblesPerMinute: 30
   bubbleNumber: 1
   bubbleType: {fileID: 8044754668895325258, guid: b3c95a748b2e11a48b1aa4a0b37cc6fe, type: 3}
   characterPlacement:
@@ -26,7 +26,7 @@ MonoBehaviour:
   CharacterCostTypeImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   bubbleTypeImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   maxCharacterNumber: 3
-  characterNumberAlreadyOwned: 3
-  characterName: Pin
+  characterNumberAlreadyOwned: 1
+  characterName: Mermaid Fish
   alreadyPop: 0
   Prefab: {fileID: 555688245926419410, guid: 81056293b99449840b47d9e1a89c6f2d, type: 3}

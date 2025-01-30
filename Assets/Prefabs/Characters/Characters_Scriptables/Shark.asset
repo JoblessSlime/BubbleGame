@@ -10,15 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54505fa0aab04c488f90d4e260c2fe8, type: 3}
-  m_Name: Character 3
+  m_Name: Shark
   m_EditorClassIdentifier: 
-  timeToSpawn: 0
-  bubbleNumber: 0
-  bubbleType: {fileID: 0}
+  timeToSpawn: 12
+  bubblesPerMinute: 5
+  bubbleNumber: 1
+  bubbleType: {fileID: 8044754668895325258, guid: c0895b5142d12a14294504f718a4437e, type: 3}
+  characterPlacement:
+  - {x: 0, y: 0, z: 0}
   characterCost: 1
   CharacterCostType: D
   characterImage: {fileID: 0}
-  maxCharacterNumber: 0
-  characterName: 
+  CharacterCostTypeImage: {fileID: 0}
+  bubbleTypeImage: {fileID: 0}
+  maxCharacterNumber: 1
+  characterNumberAlreadyOwned: 0
+  characterName: Shark
   alreadyPop: 0
-  Prefab: {fileID: 0}
+  Prefab: {fileID: 555688245926419410, guid: 831068aa73f054f4a9756bd059459743, type: 3}

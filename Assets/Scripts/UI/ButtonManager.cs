@@ -27,6 +27,7 @@ public class ButtonManager : MonoBehaviour
     public GameObject CharactersMenu;
     public bool CharactersMenuIsOpen;
 
+
     public TextMeshProUGUI textBubbleType1;
     public TextMeshProUGUI textBubbleType2;
     public TextMeshProUGUI textBubbleType3;
@@ -63,8 +64,8 @@ public class ButtonManager : MonoBehaviour
         textBubbleTypes.Add(textBubbleType9);
 
         //
-        for (int i = 0; i < Characters.Count; i++) 
-        { 
+        for (int i = 0; i < Characters.Count; i++)
+        {
             Characters[i].alreadyPop = false;
         }
 
@@ -99,7 +100,7 @@ public class ButtonManager : MonoBehaviour
 
     public void UpdateGameRessourcesUI()
     {
-        for (int i = 0; i < textBubbleTypes.Count; i++) 
+        for (int i = 0; i < textBubbleTypes.Count; i++)
         {
             textBubbleTypes[i].text = gameDatas.bubbleCounts[Characters[i].CharacterCostType].ToString();
         }
@@ -109,7 +110,7 @@ public class ButtonManager : MonoBehaviour
     public void UpdateCharactersMenu()
     {
         int index = 0;
-        for (int i = 0;i < 2; i++)
+        for (int i = 0; i < 2; i++)
         {
             Transform horizontalMenu = CharactersMenu.transform.GetChild(i);
             for (int y = 0; y < horizontalMenu.transform.childCount; y++)

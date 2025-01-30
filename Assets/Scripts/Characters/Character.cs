@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
@@ -11,6 +12,8 @@ public class Character : ScriptableObject
     public int bubbleNumber;
 
     public GameObject bubbleType;
+
+    public List<Vector3> characterPlacement;
 
     public int characterCost;
 

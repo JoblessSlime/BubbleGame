@@ -8,7 +8,7 @@ public class ButtonClicked : MonoBehaviour
     //
     public void PopUp()
     {
-        Instantiate(character.Prefab);
+        Instantiate(character.Prefab, character.characterPlacement[character.characterNumberAlreadyOwned], Quaternion.identity);
         Destroy(this.gameObject);
         //
         character.alreadyPop = false;
@@ -16,5 +16,5 @@ public class ButtonClicked : MonoBehaviour
         gameDatas.bubbleCounts[character.CharacterCostType] -= character.characterCost;
     }
 
-    
+
 }

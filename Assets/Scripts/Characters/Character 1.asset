@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: Character 1
   m_EditorClassIdentifier: 
   timeToSpawn: 2
+  bubblesPerMinute: 0
   bubbleNumber: 2
   bubbleType: {fileID: 8044754668895325258, guid: 9fde0df07fc8cb544a36ce38e6ea2538, type: 3}
   characterCost: 10
   CharacterCostType: B
   characterImage: {fileID: 0}
+  CharacterCostTypeImage: {fileID: 0}
+  bubbleTypeImage: {fileID: 0}
   maxCharacterNumber: 2
-  characterNumberAlreadyOwned: 0
+  characterNumberAlreadyOwned: 1
   characterName: 
   alreadyPop: 1
   Prefab: {fileID: 555688245926419410, guid: 11ddbf11b4dc2e24b9c17344877b9c2e, type: 3}

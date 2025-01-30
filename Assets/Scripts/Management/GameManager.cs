@@ -5,44 +5,34 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    public TMPro.TextMeshProUGUI bubbleCountText;
-
-    private float bubbleCount = 0;
-    private Dictionary<string, float> bubbleCounts = new Dictionary<string, float>();
-
+    [SerializeField] GameDatas gameDatas;
 
     private void Awake()
     {
-        Instance = this;
-    }
+        gameDatas.bubbleCounts.Clear(); //
 
+        Instance = this;
+        gameDatas.bubbleCounts["A"] = 0;
+        gameDatas.bubbleCounts["B"] = 0;
+        gameDatas.bubbleCounts["C"] = 0;
+        gameDatas.bubbleCounts["D"] = 0;
+        gameDatas.bubbleCounts["E"] = 0;
+        gameDatas.bubbleCounts["F"] = 0;
+        gameDatas.bubbleCounts["G"] = 0;
+        gameDatas.bubbleCounts["H"] = 0;
+        gameDatas.bubbleCounts["I"] = 0;
+    }
     public void AddBubble(string type, float amount)
     {
-        if (!bubbleCounts.ContainsKey(type))
-            bubbleCounts[type] = 0;
+        if (!gameDatas.bubbleCounts.ContainsKey(type))
+            gameDatas.bubbleCounts[type] = 0;
 
-        bubbleCounts[type] += amount;
+        gameDatas.bubbleCounts[type] += amount;
+        Debug.Log(gameDatas.bubbleCounts[type]);
     }
 
     void Update()
     {
-        string displayText = "Bulles collectées :\n";
-
-        float total = 0;
-
-        foreach (var kvp in bubbleCounts)
-        {
-            total += kvp.Value;
-            displayText += $"{kvp.Key} : {kvp.Value}\n";
-        }
-
-        displayText += $"\nTotal : {total}";
-
-        bubbleCountText.text = displayText;
-    }
-
-    public float GetBubbleCount()
-    {
-        return bubbleCount;
+        // afficher les valeurs
     }
 }

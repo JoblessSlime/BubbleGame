@@ -15,6 +15,10 @@ MonoBehaviour:
   timeToSpawn: 0
   bubbleNumber: 0
   bubbleType: {fileID: 0}
-  characterCost: 0
+  characterCost: 1
+  CharacterCostType: E
+  characterImage: {fileID: 0}
   maxCharacterNumber: 0
   characterName: 
+  alreadyPop: 0
+  Prefab: {fileID: 0}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 728a77a58d0715e4b9a084b9ac5bfda8
+guid: b22aac58333d9884497933311380f067
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2901973904902891398
-    second: bernard_0
+      213: 2232173756024491959
+    second: Sirene2P_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bernard_0
+      name: Sirene2P_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 22
-        width: 336
-        height: 208
+        x: 0
+        y: 0
+        width: 1446
+        height: 2172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a785fcadb1e1ab7d0800000000000000
-      internalID: -2901973904902891398
+      spriteID: 7bf0acc54364afe10800000000000000
+      internalID: 2232173756024491959
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      bernard_0: -2901973904902891398
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

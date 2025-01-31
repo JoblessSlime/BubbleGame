@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1f66b48a0b9afdc45a5c564c2642b652
+guid: 4635c7e7f5c3e6144ada242a0f487892
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7825796696674892616
-    second: cubespresentation2_0
+      213: -7601482206633953398
+    second: grenouille_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cubespresentation2_0
+      name: grenouille_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4933
-        height: 5444
+        x: 1
+        y: 2
+        width: 251
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b484420e5f256390800000000000000
-      internalID: -7825796696674892616
+      spriteID: a87712b153c128690800000000000000
+      internalID: -7601482206633953398
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cubespresentation2_0: -7825796696674892616
+      grenouille_0: -7601482206633953398
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7aa55e63d70c7a54eb54e3006346a7a7
+guid: 51e29d4d1aaa4fb428fe3e9b77b7e8b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5422578586876437861
-    second: requin_0
+      213: 6070716213128489834
+    second: bulle_bleu__0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: requin_0
+      name: bulle_bleu__0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 578
-        height: 287
+        x: 14
+        y: 18
+        width: 506
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9a179a51812fb4b0800000000000000
-      internalID: -5422578586876437861
+      spriteID: a6b6ab75b348f3450800000000000000
+      internalID: 6070716213128489834
       vertices: []
       indices: 
       edges: []
@@ -134,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      requin_0: -5422578586876437861
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

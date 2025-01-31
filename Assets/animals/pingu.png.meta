@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1f66b48a0b9afdc45a5c564c2642b652
+guid: f0303409553afa148a976fd0252e4a46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7825796696674892616
-    second: cubespresentation2_0
+      213: -1794240728052684083
+    second: pingu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cubespresentation2_0
+      name: pingu_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 4933
-        height: 5444
+        y: 13
+        width: 245
+        height: 306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b484420e5f256390800000000000000
-      internalID: -7825796696674892616
+      spriteID: dcaa1ea60939917e0800000000000000
+      internalID: -1794240728052684083
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cubespresentation2_0: -7825796696674892616
+      pingu_0: -1794240728052684083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

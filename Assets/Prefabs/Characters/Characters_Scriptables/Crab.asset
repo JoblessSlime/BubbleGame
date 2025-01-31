@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54505fa0aab04c488f90d4e260c2fe8, type: 3}
+  m_Name: Crab
+  m_EditorClassIdentifier: 
+  timeToSpawn: 2.4
+  bubblesPerMinute: 25
+  bubbleNumber: 1
+  bubbleType: {fileID: 8044754668895325258, guid: 12be017f5998ee547ba64ccc0c9b99f6, type: 3}
+  characterPosition:
+  - {fileID: 0}
+  characterCost: 1
+  CharacterCostType: H
+  characterImage: {fileID: 0}
+  CharacterCostTypeImage: {fileID: 0}
+  bubbleTypeImage: {fileID: 0}
+  maxCharacterNumber: 1
+  characterNumberAlreadyOwned: 0
+  characterName: Crab
+  alreadyPop: 0
+  Prefab: {fileID: 555688245926419410, guid: 48dbc84252f250143a1d584bdda5f673, type: 3}

@@ -10,62 +10,33 @@ public class ButtonManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] GameDatas gameDatas; //
 
-    [SerializeField] Character character1;
-    [SerializeField] Character character2;
-    [SerializeField] Character character3;
-    [SerializeField] Character character4;
-    [SerializeField] Character character5;
-    [SerializeField] Character character6;
-    [SerializeField] Character character7;
-    [SerializeField] Character character8;
-    [SerializeField] Character character9;
-
     public List<Character> Characters = new List<Character>();
+    public List<Transform> CharactersPosition = new List<Transform>();
 
 
     public GameObject popUp;
     public GameObject CharactersMenu;
     public bool CharactersMenuIsOpen;
 
-    public TextMeshProUGUI textBubbleType1;
-    public TextMeshProUGUI textBubbleType2;
-    public TextMeshProUGUI textBubbleType3;
-    public TextMeshProUGUI textBubbleType4;
-    public TextMeshProUGUI textBubbleType5;
-    public TextMeshProUGUI textBubbleType6;
-    public TextMeshProUGUI textBubbleType7;
-    public TextMeshProUGUI textBubbleType8;
-    public TextMeshProUGUI textBubbleType9;
+    public List<TextMeshProUGUI> textBubbleTypes = new List<TextMeshProUGUI>();
 
-    private List<TextMeshProUGUI> textBubbleTypes = new List<TextMeshProUGUI>();
+    public List<string> bubbleTypes = new List<string>();
 
 
     void Awake()
     {
-        Characters.Add(character1);
-        Characters.Add(character2);
-        Characters.Add(character3);
-        Characters.Add(character4);
-        Characters.Add(character5);
-        Characters.Add(character6);
-        Characters.Add(character7);
-        Characters.Add(character8);
-        Characters.Add(character9);
-
-        textBubbleTypes.Add(textBubbleType1);
-        textBubbleTypes.Add(textBubbleType2);
-        textBubbleTypes.Add(textBubbleType3);
-        textBubbleTypes.Add(textBubbleType4);
-        textBubbleTypes.Add(textBubbleType5);
-        textBubbleTypes.Add(textBubbleType6);
-        textBubbleTypes.Add(textBubbleType7);
-        textBubbleTypes.Add(textBubbleType8);
-        textBubbleTypes.Add(textBubbleType9);
-
+        int index = 0;
         //
-        for (int i = 0; i < Characters.Count; i++) 
-        { 
+        for (int i = 0; i < Characters.Count; i++)
+        {
+            Characters[i].characterPosition.Clear();
             Characters[i].alreadyPop = false;
+            for(int j = 0; j < Characters[i].maxCharacterNumber; j++)
+            {
+                Debug.Log(index);
+                Characters[i].characterPosition.Add(CharactersPosition[index]);
+                index++;
+            }
         }
 
         UpdateCharactersMenu();
@@ -89,19 +60,23 @@ public class ButtonManager : MonoBehaviour
                 GameObject popUpGameObject = Instantiate(popUp, this.transform, false);
                 ButtonClicked popUpScript = popUpGameObject.GetComponent<ButtonClicked>(); //
                 popUpScript.character = Characters[i]; //
-                TextMeshProUGUI PopUpText = popUpGameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-                Image PopUpImage = popUpGameObject.transform.GetChild(1).GetComponent<Image>();
-                PopUpImage.sprite = Characters[i].characterImage;
-                PopUpText.text = Characters[i].characterCost.ToString();
+                TextMeshProUGUI PopUpTextName = popUpGameObject.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+                Image PopUpImageCharacter = popUpGameObject.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
+                PopUpImageCharacter.sprite = Characters[i].characterImage;
+                PopUpTextName.text = Characters[i].characterName.ToString();
+                TextMeshProUGUI PopUpTextCost = popUpGameObject.transform.GetChild(0).transform.GetChild(1).transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+                Image PopUpImageBubbleType = popUpGameObject.transform.GetChild(0).transform.GetChild(1).transform.GetChild(1).GetComponent<Image>();
+                PopUpImageBubbleType.sprite = Characters[i].CharacterCostTypeImage;
+                PopUpTextCost.text = Characters[i].characterCost.ToString();
             }
         }
     }
 
     public void UpdateGameRessourcesUI()
     {
-        for (int i = 0; i < textBubbleTypes.Count; i++) 
+        for (int i = 0; i < textBubbleTypes.Count; i++)
         {
-            textBubbleTypes[i].text = gameDatas.bubbleCounts[Characters[i].CharacterCostType].ToString();
+            textBubbleTypes[i].text = gameDatas.bubbleCounts[bubbleTypes[i]].ToString();
         }
         return;
     }
@@ -109,7 +84,7 @@ public class ButtonManager : MonoBehaviour
     public void UpdateCharactersMenu()
     {
         int index = 0;
-        for (int i = 0;i < 2; i++)
+        for (int i = 0; i < 2; i++)
         {
             Transform horizontalMenu = CharactersMenu.transform.GetChild(i);
             for (int y = 0; y < horizontalMenu.transform.childCount; y++)

@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    public AudioSource audioSource;
+
     [SerializeField] GameDatas gameDatas;
 
     private void Awake()
@@ -21,9 +23,13 @@ public class GameManager : MonoBehaviour
         gameDatas.bubbleCounts["G"] = 0;
         gameDatas.bubbleCounts["H"] = 0;
         gameDatas.bubbleCounts["I"] = 0;
+        gameDatas.bubbleCounts["J"] = 0;
+        gameDatas.bubbleCounts["K"] = 0;
+        gameDatas.bubbleCounts["L"] = 0;
     }
     public void AddBubble(string type, float amount)
     {
+        audioSource.Play();
         if (!gameDatas.bubbleCounts.ContainsKey(type))
             gameDatas.bubbleCounts[type] = 0;
 

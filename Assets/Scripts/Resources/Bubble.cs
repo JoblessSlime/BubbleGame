@@ -8,6 +8,7 @@ public class Bubble : MonoBehaviour
     public string type = "";
     public float amount = 1f;
 
+
     private float startX;
 
     private void Start()
@@ -41,7 +42,6 @@ public class Bubble : MonoBehaviour
     {
         // Ajoute la bulle au compteur
         GameManager.Instance.AddBubble(type, isClick ? amount * 2f : amount);
-
         // Détruit la bulle
         Destroy(gameObject);
     }

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54505fa0aab04c488f90d4e260c2fe8, type: 3}
+  m_Name: Shrimp
+  m_EditorClassIdentifier: 
+  timeToSpawn: 60
+  bubblesPerMinute: 1
+  bubbleNumber: 1
+  bubbleType: {fileID: 8044754668895325258, guid: 35f8e505867cf8f44ab1a8a10c554fc6, type: 3}
+  characterPosition:
+  - {fileID: 0}
+  characterCost: 1
+  CharacterCostType: E
+  characterImage: {fileID: 0}
+  CharacterCostTypeImage: {fileID: 0}
+  bubbleTypeImage: {fileID: 0}
+  maxCharacterNumber: 1
+  characterNumberAlreadyOwned: 0
+  characterName: Shrimp
+  alreadyPop: 0
+  Prefab: {fileID: 555688245926419410, guid: b1f1d3fc1ffde1441b7e7c9ad04ff38d, type: 3}

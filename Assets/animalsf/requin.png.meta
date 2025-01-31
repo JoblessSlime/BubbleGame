@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      requin_0: -5422578586876437861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

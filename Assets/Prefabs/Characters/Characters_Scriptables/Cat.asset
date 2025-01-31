@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: G
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: -5023993775100892622, guid: 116353c875a2e9241b5cd8496989bd48, type: 3}
+  CharacterCostTypeImage: {fileID: 7316849098279689249, guid: 3021c706ceb293f45afb95a916771b6f, type: 3}
+  bubbleTypeImage: {fileID: -3905189820467116164, guid: a25c6a8b9267d1244842808623f8b7e7, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Cat

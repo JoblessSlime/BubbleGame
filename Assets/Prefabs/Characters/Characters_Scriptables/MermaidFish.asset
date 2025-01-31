@@ -22,9 +22,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 10
   CharacterCostType: A
-  characterImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  CharacterCostTypeImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  bubbleTypeImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  characterImage: {fileID: 6962267685405807637, guid: bf1dabd61be6d7c43b4b4826945fe979, type: 3}
+  CharacterCostTypeImage: {fileID: 6070716213128489834, guid: 51e29d4d1aaa4fb428fe3e9b77b7e8b6, type: 3}
+  bubbleTypeImage: {fileID: 6070716213128489834, guid: 51e29d4d1aaa4fb428fe3e9b77b7e8b6, type: 3}
   maxCharacterNumber: 3
   characterNumberAlreadyOwned: 0
   characterName: Mermaid Fish

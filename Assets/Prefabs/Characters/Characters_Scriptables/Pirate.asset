@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: C
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: -4453028504287287149, guid: 7bacb0ce6275a69409e4c09458a843fe, type: 3}
+  CharacterCostTypeImage: {fileID: -8838033472006988201, guid: 8016ad0dff08fd94a8def244a7ee0270, type: 3}
+  bubbleTypeImage: {fileID: -1782035710242469285, guid: dc5ec42bf6a0140478eeb641dccc849f, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Pirate

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dragon_boy_profil_0: -172334112597054751
+      dragon_boy_profil_1: 1109733432754994091
+      dragon_boy_profil_2: -6732916392470008288
+      dragon_boy_profil_3: -6660592109202192515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

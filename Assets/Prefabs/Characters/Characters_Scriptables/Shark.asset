@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: D
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: -817683748092893165, guid: fcb62c63acfdf8340ab4b7df9e4847e1, type: 3}
+  CharacterCostTypeImage: {fileID: -1782035710242469285, guid: dc5ec42bf6a0140478eeb641dccc849f, type: 3}
+  bubbleTypeImage: {fileID: 3900519517960308744, guid: 4405ee17df463a94ebcffa8b78c6c34d, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Shark

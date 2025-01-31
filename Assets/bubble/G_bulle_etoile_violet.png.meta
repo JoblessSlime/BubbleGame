@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8a54401171a2e2544a25ac3cae78160b
+guid: 3021c706ceb293f45afb95a916771b6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3944168612496466687
-    second: portrait_nounouille_verte_0
+      213: 7316849098279689249
+    second: bulle_etoile_violet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: portrait_nounouille_verte_0
+      name: bulle_etoile_violet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 24
         y: 0
-        width: 148
-        height: 141
+        width: 513
+        height: 537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff2e81ab4708cb630800000000000000
-      internalID: 3944168612496466687
+      spriteID: 12c19121d7baa8560800000000000000
+      internalID: 7316849098279689249
       vertices: []
       indices: 
       edges: []
@@ -134,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bulle_etoile_violet_0: 7316849098279689249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

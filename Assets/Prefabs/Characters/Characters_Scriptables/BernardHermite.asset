@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: F
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: 7201759793553313340, guid: b8d918172de1ea4418338f83cedf6a8d, type: 3}
+  CharacterCostTypeImage: {fileID: -649962283761260624, guid: 3123270190b7fce4b8a44c51ed217b40, type: 3}
+  bubbleTypeImage: {fileID: 7316849098279689249, guid: 3021c706ceb293f45afb95a916771b6f, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Bernard l'hermite

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b93619bbdbdf62b4f8aa7ef0894989d6
+guid: 1bf20569a67f77f468ee3092388966fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5159512638673757246
-    second: persosbubble_0
+      213: -2801811840454203322
+    second: PirateJeffportrait_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: persosbubble_0
+      name: PirateJeffportrait_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 707
-        height: 1020
+        width: 3936
+        height: 5535
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cb56b5679ab568b0800000000000000
-      internalID: -5159512638673757246
+      spriteID: 6486e3ac9f6fd19d0800000000000000
+      internalID: -2801811840454203322
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PirateJeffportrait_0: -2801811840454203322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

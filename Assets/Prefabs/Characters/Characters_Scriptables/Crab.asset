@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: H
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: 7759077940885435599, guid: c136809082f42ea4baf2a6b68b34ec18, type: 3}
+  CharacterCostTypeImage: {fileID: -3905189820467116164, guid: a25c6a8b9267d1244842808623f8b7e7, type: 3}
+  bubbleTypeImage: {fileID: 1983847239376838209, guid: 686f5a0cf19769c43beb5f9b616a08e6, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Crab

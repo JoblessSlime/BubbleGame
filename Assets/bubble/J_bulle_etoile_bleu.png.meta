@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bulle_etoile_bleu_0: 206052735158738208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

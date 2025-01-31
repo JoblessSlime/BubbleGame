@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fcb62c63acfdf8340ab4b7df9e4847e1
+guid: 8a54401171a2e2544a25ac3cae78160b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -817683748092893165
-    second: portrait_requin_0
+      213: 3944168612496466687
+    second: portrait_nounouille_verte_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: portrait_requin_0
+      name: portrait_nounouille_verte_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 217
-        height: 217
+        width: 148
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3182050a6f007a4f0800000000000000
-      internalID: -817683748092893165
+      spriteID: ff2e81ab4708cb630800000000000000
+      internalID: 3944168612496466687
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      portrait_nounouille_verte_0: 3944168612496466687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

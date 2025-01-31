@@ -21,9 +21,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 10
   CharacterCostType: A
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: 1040354138293101117, guid: 44e3318dc57daf74b826436fe075649e, type: 3}
+  CharacterCostTypeImage: {fileID: 6070716213128489834, guid: 51e29d4d1aaa4fb428fe3e9b77b7e8b6, type: 3}
+  bubbleTypeImage: {fileID: -8093296319466402300, guid: 2a1c52b5175bd664481ed7bbef5e2193, type: 3}
   maxCharacterNumber: 2
   characterNumberAlreadyOwned: 0
   characterName: Mermaid Pieuvre

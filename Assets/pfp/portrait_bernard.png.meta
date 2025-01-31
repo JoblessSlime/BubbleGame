@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2a1c52b5175bd664481ed7bbef5e2193
+guid: b8d918172de1ea4418338f83cedf6a8d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8093296319466402300
-    second: bulle_coeur_bleu_0
+      213: 7201759793553313340
+    second: portrait_bernard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bulle_coeur_bleu_0
+      name: portrait_bernard_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 30
-        width: 535
-        height: 450
+        x: 0
+        y: 0
+        width: 130
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40e8a38a0e5deaf80800000000000000
-      internalID: -8093296319466402300
+      spriteID: c3e8f6c206ac1f360800000000000000
+      internalID: 7201759793553313340
       vertices: []
       indices: 
       edges: []
@@ -147,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      portrait_bernard_0: 7201759793553313340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

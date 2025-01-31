@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mermaid2_0: -7646334207537194286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

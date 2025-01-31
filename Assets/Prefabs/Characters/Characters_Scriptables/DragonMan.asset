@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: F
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: -172334112597054751, guid: ce04e10c16d3f1b4fa9ccc1e790059a9, type: 3}
+  CharacterCostTypeImage: {fileID: -649962283761260624, guid: 3123270190b7fce4b8a44c51ed217b40, type: 3}
+  bubbleTypeImage: {fileID: 206052735158738208, guid: 87352c84561c15b46a3833c756530e3d, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Gragon Man

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c136809082f42ea4baf2a6b68b34ec18
+guid: 2a1c52b5175bd664481ed7bbef5e2193
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7759077940885435599
-    second: portrait_crabe_0
+      213: -8093296319466402300
+    second: bulle_coeur_bleu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: portrait_crabe_0
+      name: bulle_coeur_bleu_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 180
-        height: 182
+        x: 3
+        y: 30
+        width: 535
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc4bb032748cdab60800000000000000
-      internalID: 7759077940885435599
+      spriteID: 40e8a38a0e5deaf80800000000000000
+      internalID: -8093296319466402300
       vertices: []
       indices: 
       edges: []
@@ -134,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bulle_coeur_bleu_0: -8093296319466402300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

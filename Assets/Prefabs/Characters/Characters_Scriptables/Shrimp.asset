@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: E
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: 7330899670596628655, guid: 7d1063334853d7f479890158f62aa3da, type: 3}
+  CharacterCostTypeImage: {fileID: 3900519517960308744, guid: 4405ee17df463a94ebcffa8b78c6c34d, type: 3}
+  bubbleTypeImage: {fileID: -649962283761260624, guid: 3123270190b7fce4b8a44c51ed217b40, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Shrimp

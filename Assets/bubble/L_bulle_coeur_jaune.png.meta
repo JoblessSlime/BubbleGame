@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b90fc772f417e664299790baa01f47d1
+guid: ac7908424aa2fb840b4491493b589390
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3931601618431576820
-    second: Sirene.Elena copie_0
+      213: -4709122521096646143
+    second: bulle_coeur_jaune_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sirene.Elena copie_0
+      name: bulle_coeur_jaune_0
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1871
-        width: 1448
-        height: 2432
+        x: 3
+        y: 30
+        width: 535
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fa07f867dadf8630800000000000000
-      internalID: 3931601618431576820
+      spriteID: 1021e3e5406d5aeb0800000000000000
+      internalID: -4709122521096646143
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sirene.Elena copie_0: 3931601618431576820
+      bulle_coeur_jaune_0: -4709122521096646143
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

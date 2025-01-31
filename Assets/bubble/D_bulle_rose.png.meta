@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e1bc6bd5296441a46865779472b00417
+guid: dc5ec42bf6a0140478eeb641dccc849f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -83444577952150173
-    second: Sirene1P_0
+      213: -1782035710242469285
+    second: bulle_rose_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sirene1P_0
+      name: bulle_rose_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1446
-        height: 2426
+        x: 14
+        y: 18
+        width: 506
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36dcab4399b87def0800000000000000
-      internalID: -83444577952150173
+      spriteID: b5acfe196ffe447e0800000000000000
+      internalID: -1782035710242469285
       vertices: []
       indices: 
       edges: []
@@ -134,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bulle_rose_0: -1782035710242469285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: B
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: -3964922245465866998, guid: 20841ebc03d437941bed19c2777d9bc6, type: 3}
+  CharacterCostTypeImage: {fileID: -8093296319466402300, guid: 2a1c52b5175bd664481ed7bbef5e2193, type: 3}
+  bubbleTypeImage: {fileID: -8838033472006988201, guid: 8016ad0dff08fd94a8def244a7ee0270, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Pingu

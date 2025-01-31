@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54505fa0aab04c488f90d4e260c2fe8, type: 3}
-  m_Name: Cat2
+  m_Name: Frog2
   m_EditorClassIdentifier: 
   timeToSpawn: 6
   bubblesPerMinute: 10
@@ -20,11 +20,11 @@ MonoBehaviour:
   - {fileID: 0}
   characterCost: 1
   CharacterCostType: K
-  characterImage: {fileID: 0}
-  CharacterCostTypeImage: {fileID: 0}
-  bubbleTypeImage: {fileID: 0}
+  characterImage: {fileID: -8596089498069299332, guid: 1b2190efb05ab8546a2bbff1322a4aef, type: 3}
+  CharacterCostTypeImage: {fileID: -4598410763922401801, guid: a7599a7939e956540b3af1300e66b631, type: 3}
+  bubbleTypeImage: {fileID: -4709122521096646143, guid: ac7908424aa2fb840b4491493b589390, type: 3}
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Frog
   alreadyPop: 0
-  Prefab: {fileID: 555688245926419410, guid: bd83ffda750d18742bf77a4b579fd01d, type: 3}
+  Prefab: {fileID: 555688245926419410, guid: b482e403e584f6f41a1236800ed25f7f, type: 3}

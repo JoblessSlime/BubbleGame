@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1f66b48a0b9afdc45a5c564c2642b652
+guid: 7d1063334853d7f479890158f62aa3da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7825796696674892616
-    second: cubespresentation2_0
+      213: 7330899670596628655
+    second: crevette_profil_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cubespresentation2_0
+      name: crevette_profil_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4933
-        height: 5444
+        width: 156
+        height: 156
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b484420e5f256390800000000000000
-      internalID: -7825796696674892616
+      spriteID: fa0b0fdd8669cb560800000000000000
+      internalID: 7330899670596628655
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cubespresentation2_0: -7825796696674892616
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

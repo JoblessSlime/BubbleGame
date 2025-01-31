@@ -16,8 +16,8 @@ MonoBehaviour:
   bubblesPerMinute: 15
   bubbleNumber: 1
   bubbleType: {fileID: 8044754668895325258, guid: 6d1d40dcc3aca6d4dad0852a4d88715b, type: 3}
-  characterPlacement:
-  - {x: 0, y: 0, z: 0}
+  characterPosition:
+  - {fileID: 0}
   characterCost: 1
   CharacterCostType: B
   characterImage: {fileID: 0}
@@ -26,5 +26,5 @@ MonoBehaviour:
   maxCharacterNumber: 1
   characterNumberAlreadyOwned: 0
   characterName: Pingu
-  alreadyPop: 1
+  alreadyPop: 0
   Prefab: {fileID: 555688245926419410, guid: 322f4ac65076a664aa39b8b90acc580e, type: 3}

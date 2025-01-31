@@ -13,7 +13,7 @@ public class Character : ScriptableObject
 
     public GameObject bubbleType;
 
-    public List<Vector3> characterPlacement;
+    public List<Transform> characterPosition;
 
     public int characterCost;
 

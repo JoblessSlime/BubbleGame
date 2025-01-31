@@ -16,8 +16,8 @@ MonoBehaviour:
   bubblesPerMinute: 10
   bubbleNumber: 1
   bubbleType: {fileID: 8044754668895325258, guid: cf2b7e13453a0984eae252c582f615d2, type: 3}
-  characterPlacement:
-  - {x: 0, y: 0, z: 0}
+  characterPosition:
+  - {fileID: 0}
   characterCost: 1
   CharacterCostType: G
   characterImage: {fileID: 0}

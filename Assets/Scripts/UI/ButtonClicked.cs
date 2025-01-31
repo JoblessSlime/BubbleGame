@@ -8,7 +8,7 @@ public class ButtonClicked : MonoBehaviour
     //
     public void PopUp()
     {
-        Instantiate(character.Prefab, character.characterPlacement[character.characterNumberAlreadyOwned], Quaternion.identity);
+        Instantiate(character.Prefab, character.characterPosition[character.characterNumberAlreadyOwned].position, Quaternion.identity);
         Destroy(this.gameObject);
         //
         character.alreadyPop = false;

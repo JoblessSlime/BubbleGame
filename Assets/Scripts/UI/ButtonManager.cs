@@ -11,6 +11,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] GameDatas gameDatas; //
 
     public List<Character> Characters = new List<Character>();
+    public List<Transform> CharactersPosition = new List<Transform>();
 
 
     public GameObject popUp;
@@ -24,11 +25,18 @@ public class ButtonManager : MonoBehaviour
 
     void Awake()
     {
-
+        int index = 0;
         //
         for (int i = 0; i < Characters.Count; i++)
         {
+            Characters[i].characterPosition.Clear();
             Characters[i].alreadyPop = false;
+            for(int j = 0; j < Characters[i].maxCharacterNumber; j++)
+            {
+                Debug.Log(index);
+                Characters[i].characterPosition.Add(CharactersPosition[index]);
+                index++;
+            }
         }
 
         UpdateCharactersMenu();
@@ -52,10 +60,14 @@ public class ButtonManager : MonoBehaviour
                 GameObject popUpGameObject = Instantiate(popUp, this.transform, false);
                 ButtonClicked popUpScript = popUpGameObject.GetComponent<ButtonClicked>(); //
                 popUpScript.character = Characters[i]; //
-                TextMeshProUGUI PopUpText = popUpGameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-                Image PopUpImage = popUpGameObject.transform.GetChild(1).GetComponent<Image>();
-                PopUpImage.sprite = Characters[i].characterImage;
-                PopUpText.text = Characters[i].characterCost.ToString();
+                TextMeshProUGUI PopUpTextName = popUpGameObject.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+                Image PopUpImageCharacter = popUpGameObject.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
+                PopUpImageCharacter.sprite = Characters[i].characterImage;
+                PopUpTextName.text = Characters[i].characterName.ToString();
+                TextMeshProUGUI PopUpTextCost = popUpGameObject.transform.GetChild(0).transform.GetChild(1).transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+                Image PopUpImageBubbleType = popUpGameObject.transform.GetChild(0).transform.GetChild(1).transform.GetChild(1).GetComponent<Image>();
+                PopUpImageBubbleType.sprite = Characters[i].CharacterCostTypeImage;
+                PopUpTextCost.text = Characters[i].characterCost.ToString();
             }
         }
     }
